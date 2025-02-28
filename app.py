@@ -17,7 +17,7 @@ st.title("Solar Panel Detection")
 st.write("Upload an image to detect solar panels")
 
 # Upload image
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png","tif"])
 
 if uploaded_file is not None:
     # Save the uploaded image to a temporary file
