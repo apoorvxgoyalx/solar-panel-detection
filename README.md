@@ -42,14 +42,14 @@ The project focuses on detecting solar panels using a deep learning model (YOLO)
 
 ---
 
-## Dataset Splitting & Statistics
+## Data Exploration and Understanding Results
 
 - **Total solar panel instances in the dataset:** 29,625
 
----
-
-## Data Exploration Results
-
+![](images/distributionofsolarpanelsareasinsquaremeters.png "Distribution of Solar Panels areas in square meters")
+boxplot of solar panel areas
+![](images/BOXPLOT.png "Boxplot of Solar Panel areas")
+![](images/RANDOM.png "Plotting random samples with bounding boxes and area calculations")
 ### Solar Panel Instance Count
 
 - **Total Instances:** 29,625
@@ -176,6 +176,8 @@ For 10 randomly generated test images (100×100) with 10 boxes each (ground trut
 - **AP50 (Pascal VOC 11-point):** 0.4718  
 - **AP50 (COCO 101-point):** 0.4623  
 - **AP50 (AUC):** 0.5538
+![](images/iou.png )
+![](images/ap50.png "Precision-Recall Curve")
 
 ### Precision, Recall, and F1-Score Tables
 
@@ -209,10 +211,11 @@ For 10 randomly generated test images (100×100) with 10 boxes each (ground trut
 | **IoU = 0.7**        | 0.9338| 0.9382| 0.9483| 0.9299| 0.4534|
 | **IoU = 0.9**        | 0.6274| 0.6311| 0.6464| 0.6594| 0.4325|
 
+
+![](images/download.png "")
 ---
 
 ## Model Training and Inference
-
 - **Training Summary:**
   - Pre-trained YOLO model loaded from `runs/detect/train2/weights/best.pt`
   - Inference performed on 256 test images (all with `.tif` extension).
