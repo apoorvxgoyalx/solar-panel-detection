@@ -1,4 +1,4 @@
-# Solar Panel Object Detection Project
+# [Solar Panel Object Detection Project](https://solar-panel-detection-qwvrvpdv4dk4rat7pymbmu.streamlit.app/)
 
 This project implements an object detection pipeline for detecting solar panels in images. The project covers data exploration, custom metric implementations, and model training/evaluation using a YOLO-based approach. All answers and results are taken directly from the IPython Notebook outputs.
 
