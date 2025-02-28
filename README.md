@@ -19,7 +19,6 @@ This project implements an object detection pipeline for detecting solar panels 
   - [Average Precision (AP50) Evaluations](#average-precision-ap50-evaluations)
   - [Precision, Recall, and F1-Score Tables](#precision-recall-and-f1-score-tables)
 - [Model Training and Inference](#model-training-and-inference)
-- [Contact Information](#contact-information)
 
 ---
 
@@ -225,10 +224,3 @@ For 10 randomly generated test images (100×100) with 10 boxes each (ground trut
 - **Inference Example Outputs:**
   - Images processed at 640×640 resolution with varying numbers of detected solar panels (e.g., 9, 13, 17, etc.) along with detailed speed statistics.
 
----
-
-## Contact Information
-
-For any questions or clarifications, please contact:  
-**Rishabh Mondal**  
-📧 [rishabh.mondal@iitgn.ac.in](mailto:rishabh.mondal@iitgn.ac.in)
