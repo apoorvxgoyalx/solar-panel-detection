@@ -173,9 +173,10 @@ Calculated using bounding box dimensions and a GSD of 31 cm per pixel:
 
 For 10 randomly generated test images (100×100) with 10 boxes each (ground truth and predicted boxes of size 20×20, single class):
 
-- **AP50 (Pascal VOC 11-point):** 0.4718  
-- **AP50 (COCO 101-point):** 0.4623  
-- **AP50 (AUC):** 0.5538
+- **AP50 (Pascal VOC 11-point):** 0.3331  
+- **AP50 (COCO 101-point):** 0.3432  
+- **AP50 (AUC):** 0.4367
+
 ![](images/boxesss.png )
 ![](images/curveeeee.png "Precision-Recall Curve")
 
