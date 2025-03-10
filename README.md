@@ -176,8 +176,8 @@ For 10 randomly generated test images (100×100) with 10 boxes each (ground trut
 - **AP50 (Pascal VOC 11-point):** 0.4718  
 - **AP50 (COCO 101-point):** 0.4623  
 - **AP50 (AUC):** 0.5538
-![](images/iou.png )
-![](images/ap50.png "Precision-Recall Curve")
+![](images/boxesss.png )
+![](images/curveeeee.png "Precision-Recall Curve")
 
 ### Precision, Recall, and F1-Score Tables
 
